@@ -1,23 +1,15 @@
 {
-  "name": "gltf",
+  "name": "glb-optimizer",
   "version": "1.0.0",
-  "main": "1.js",
+  "description": "GLB dosyalarını optimize eden masaüstü uygulaması",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@gltf-transform/cli": "^4.1.0",
-    "@gltf-transform/core": "^4.1.0",
-    "@gltf-transform/extensions": "^4.1.0",
-    "@gltf-transform/functions": "^4.1.0",
-    "@loaders.gl/core": "^4.3.2",
-    "@loaders.gl/gltf": "^4.3.2",
-    "draco3dgltf": "^1.5.7",
-    "gltf-pipeline": "^4.1.0",
-    "meshoptimizer": "^0.22.0"
-  },
-  "description": ""
+    "@gltf-transform/core": "^3.0.0",
+    "@gltf-transform/extensions": "^3.0.0",
+    "draco3dgltf": "^1.5.0",
+    "electron": "^latest"
+  }
 }
